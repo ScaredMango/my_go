@@ -1,0 +1,36 @@
+.qwestion-list__item {
+    list-style: none;
+    background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+
+    position: relative;
+}
+
+.qwestion-list__item:nth-child(even) {
+    background-color: #440F51;
+    color: white;
+}
+
+.qwestion-list__item:nth-child(odd)::after {
+    content: url('../img/open-purple.svg');
+    display: inline-block;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.qwestion-list__item:nth-child(even)::after {
+    content: url('../img/open.svg');
+    display: inline-block;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -50%);
+}

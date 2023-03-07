@@ -1,0 +1,51 @@
+.contact-list {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-list__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-adr::before {
+    content: '';
+    background-image: url('../img/location.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.contact-list__item-tel::before {
+    content: '';
+    background-image: url('../img/phone-call.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.contact-list__item-mail::before {
+    content: '';
+    background-image: url('../img/mail.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.contact-sotial__item{
+    display: inline-block;
+}
+
+.contact-sotial__link-img{
+    margin: 10px;
+}

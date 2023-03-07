@@ -1,0 +1,26 @@
+/* Не знаю что с этим делать */
+/* По определению из видео глобальные стили это стили которые
+ используются в КАЖДОМ проете */
+ /*Эти стили есть в каждой секции */
+  /*Но их нет в каждом проекте(((*/
+  /* Пусть пока тут полежат */
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 60px;
+}
+
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
